@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import AddBlog from './pages/AddBlog'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Layout() {
   return (
@@ -39,6 +41,21 @@ export default function Layout() {
 {/* component */}
 
   <div className='bg-gray-100 text-lg container mx-auto min-h-[90vh]'>
+  <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+
+/>
+{/* Same as */}
+<ToastContainer />
     <Outlet />
   </div>
    

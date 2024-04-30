@@ -1,0 +1,41 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Introduction to Blogging",
+        "author": "John Doe",
+        "content": "This is an introductory post about blogging.",
+        "comments": [
+          {
+            "id": 1,
+            "author": "Alice",
+            "text": "Great post, looking forward to more!"
+          },
+          {
+            "id": 2,
+            "author": "Bob",
+            "text": "Interesting read, thanks for sharing."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Top 10 Tips for Successful Blogging",
+        "author": "Jane Smith",
+        "content": "Here are some tips to help you succeed in blogging.",
+        "comments": [
+          {
+            "id": 3,
+            "author": "Charlie",
+            "text": "Very helpful advice, thanks!"
+          },
+          {
+            "id": 4,
+            "author": "Diana",
+            "text": "I'll definitely apply these tips to my blog."
+          }
+        ]
+      }
+    ]
+  }
+  

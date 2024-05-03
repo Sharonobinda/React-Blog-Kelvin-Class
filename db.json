@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Introduction to Blogging",
-      "author": "John Doe",
+      "author": "Tonui",
       "content": "This is an introductory post about blogging.",
       "comments": [
         {
@@ -37,13 +37,39 @@
       ]
     },
     {
-      "id": "440f",
-      "title": "dsdcdzs",
-      "content": "dsfvszdfv",
-      "author": "sdfvzxv zdfx",
-      "comments": [
-        
-      ]
+      "id": "6371",
+      "title": "End of Phase 2 ",
+      "content": "- Blog Project ends today",
+      "author": "Kelvin",
+      "comments": []
+    },
+    {
+      "id": "d73f",
+      "title": "sbg fsd b",
+      "content": "fdbg fdsb ",
+      "author": "dfbg fd b",
+      "comments": []
+    },
+    {
+      "id": "b7f5",
+      "title": "esrfvdsrv",
+      "content": "erfvsr",
+      "author": "serfvsdrvs",
+      "comments": []
+    },
+    {
+      "id": "32f3",
+      "title": "rfsdg xd bg",
+      "content": "fdg bxfd b",
+      "author": "fdg bxdf b",
+      "comments": []
+    },
+    {
+      "id": "c466",
+      "title": "rfsdg xd bg",
+      "content": "fdg bxfd b",
+      "author": "fdg bxdf b",
+      "comments": []
     }
   ]
 }

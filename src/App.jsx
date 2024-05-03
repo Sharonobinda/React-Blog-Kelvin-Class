@@ -10,6 +10,9 @@ import Layout from "./Layout"
 import LayoutAdmin from './LayoutAdmin';
 import AdminLogin from './pages/AdminLogin';
 import NoPage from './pages/NoPage';
+import Blog from './pages/Blog';
+import UpdateBlog from './pages/UpdateBlog';
+
 function App() {
 
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/addblog' element={<AddBlog />} />
+        <Route path='/blog/:id' element={<Blog />} />
+        <Route path='/update/:post_id' element={<UpdateBlog />} />
+
         <Route path="*" element={<NoPage />} />
       </Route>
       <Route path='/admin/' element={<LayoutAdmin/>}>
